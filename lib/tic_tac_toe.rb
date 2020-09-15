@@ -86,9 +86,10 @@ def turn(board)
 end
 
 def play(board)
-  # turns_passed = 0
-  # while turns_passed != 9
+  if over?(board)
+    puts "The winner is #{winner(board)}"
+  else
     turn(board)
-  #   turns_passed += 1
-  # end
+    play(board)
+  end
 end
