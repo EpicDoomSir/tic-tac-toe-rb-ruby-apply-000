@@ -86,9 +86,9 @@ def turn(board)
 end
 
 def play(board)
-  turns_passed = 0
-  while turns_passed != 9
-    turn(board)
-    turns_passed += 1
-  end
+  # turns_passed = 0
+  # while turns_passed != 9
+  #   turn(board)
+  #   turns_passed += 1
+  # end
 end
