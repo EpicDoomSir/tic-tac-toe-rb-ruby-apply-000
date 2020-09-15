@@ -87,7 +87,7 @@ end
 
 def play(board)
   if over?(board)
-    puts "The winner is #{winner(board)}"
+    puts "Congra #{winner(board)}"
   else
     turn(board)
     play(board)
